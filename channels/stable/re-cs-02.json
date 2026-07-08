@@ -4,23 +4,23 @@
   "device": "jdcloud,re-cs-02-gwrt2",
   "target": "qualcommax/ipq60xx",
   "latest": {
-    "version": "GWRT V20260606.11",
-    "build": 11,
+    "version": "GWRT V20260606.12",
+    "build": 12,
     "base": "6.18.37-r0-0bad892",
     "rootfs_generation": 1,
-    "released_at": "2026-07-08T09:27:59Z"
+    "released_at": "2026-07-08T10:00:48Z"
   },
   "upgrade": {
     "patch": {
-      "from_min_build": 9,
-      "from_max_build": 10,
+      "from_min_build": 11,
+      "from_max_build": 11,
       "type": "patch",
-      "url": "https://github.com/rothdren-lion/gwrt-ota/releases/download/gwrt-v20260606.11/gwrt-ota-11.tar.gz",
-      "sha256": "d29fe9c74c64ad66b13ac6efb3f44ad3f998ece6513c3d6a1f9915c3ec124190",
-      "size": 56873,
+      "url": "https://github.com/rothdren-lion/gwrt-ota/releases/download/gwrt-v20260606.12/gwrt-ota-12.tar.gz",
+      "sha256": "89fb03d4668bacffd8325ba1e4eb6a0056342d2d31ef8e0135eec9af357437be",
+      "size": 59935,
       "reboot": false,
       "notes": [
-        "Dashboard conntrack waveform, adaptive topology layout, cache refresh"
+        "Device icon rules for brands, phones, PCs, tablets, IoT and initials"
       ]
     },
     "sysupgrade": null,
