@@ -1,0 +1,29 @@
+{
+  "schema": 1,
+  "channel": "stable",
+  "device": "jdcloud,re-cs-02-gwrt2",
+  "target": "qualcommax/ipq60xx",
+  "latest": {
+    "version": "GWRT V20260606.8",
+    "build": 8,
+    "base": "6.18.37-r0-0bad892",
+    "rootfs_generation": 1,
+    "released_at": "2026-07-08T08:19:31Z"
+  },
+  "upgrade": {
+    "patch": {
+      "from_min_build": 7,
+      "from_max_build": 7,
+      "type": "patch",
+      "url": "https://github.com/rothdren-lion/gwrt-ota/releases/download/gwrt-v20260606.8/gwrt-ota-8.tar.gz",
+      "sha256": "74420f655921ed6a9bd7697000fc87ae7efa208a8ad48196a0a14804228e4e8e",
+      "size": 96825,
+      "reboot": false,
+      "notes": [
+        "OTA framework and dashboard button"
+      ]
+    },
+    "sysupgrade": null,
+    "factory": null
+  }
+}
