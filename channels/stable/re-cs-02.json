@@ -4,23 +4,23 @@
   "device": "jdcloud,re-cs-02-gwrt2",
   "target": "qualcommax/ipq60xx",
   "latest": {
-    "version": "GWRT V20260606.10",
-    "build": 10,
+    "version": "GWRT V20260606.11",
+    "build": 11,
     "base": "6.18.37-r0-0bad892",
     "rootfs_generation": 1,
-    "released_at": "2026-07-08T09:10:08Z"
+    "released_at": "2026-07-08T09:27:59Z"
   },
   "upgrade": {
     "patch": {
       "from_min_build": 9,
-      "from_max_build": 9,
+      "from_max_build": 10,
       "type": "patch",
-      "url": "https://github.com/rothdren-lion/gwrt-ota/releases/download/gwrt-v20260606.10/gwrt-ota-10.tar.gz",
-      "sha256": "53eb9e32f0618fa418d2454fb2653090dd4f74151dfae011700949321f3ea9aa",
-      "size": 54284,
+      "url": "https://github.com/rothdren-lion/gwrt-ota/releases/download/gwrt-v20260606.11/gwrt-ota-11.tar.gz",
+      "sha256": "d29fe9c74c64ad66b13ac6efb3f44ad3f998ece6513c3d6a1f9915c3ec124190",
+      "size": 56873,
       "reboot": false,
       "notes": [
-        "Conntrack waveform, OTA version display, adaptive topology layout"
+        "Dashboard conntrack waveform, adaptive topology layout, cache refresh"
       ]
     },
     "sysupgrade": null,
