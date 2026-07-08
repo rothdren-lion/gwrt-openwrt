@@ -4,23 +4,23 @@
   "device": "jdcloud,re-cs-02-gwrt2",
   "target": "qualcommax/ipq60xx",
   "latest": {
-    "version": "GWRT V20260606.13",
-    "build": 13,
+    "version": "GWRT V20260606.14",
+    "build": 14,
     "base": "6.18.37-r0-0bad892",
     "rootfs_generation": 1,
-    "released_at": "2026-07-08T11:10:04Z"
+    "released_at": "2026-07-08T11:45:25Z"
   },
   "upgrade": {
     "patch": {
-      "from_min_build": 12,
-      "from_max_build": 12,
+      "from_min_build": 13,
+      "from_max_build": 13,
       "type": "patch",
-      "url": "https://github.com/rothdren-lion/gwrt-ota/releases/download/gwrt-v20260606.13/gwrt-ota-13.tar.gz",
-      "sha256": "53d36d61a517a7a610f46aa2eb8a85a05972c9b9543786ecc97748c3e102e14f",
-      "size": 60060,
+      "url": "https://github.com/rothdren-lion/gwrt-ota/releases/download/gwrt-v20260606.14/gwrt-ota-14.tar.gz",
+      "sha256": "ea3368c3462a3c058a804544c028fa89fec327e02822e5f63119087cbdbc3deb",
+      "size": 60090,
       "reboot": false,
       "notes": [
-        "Device shape priority with brand corner badges for phones and tablets"
+        "Full-height conntrack trend line in connections card"
       ]
     },
     "sysupgrade": null,
